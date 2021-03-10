@@ -8,7 +8,7 @@
 
 import socket
 
-def lib_open_connect(interface, port):
+def lib_server_open_connect(interface, port):
 
     # create socket
     sock = socket.socket()
